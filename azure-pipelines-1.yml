@@ -81,7 +81,7 @@ stages:
             displayName: 'Use Python version'
 
           - task: AzureWebApp@1
-            displayName: 'Deploy Azure Web App : pythonsamplevscodeflaskappbz'
+            displayName: 'Deploy Azure Web App : flaskappmerito2'
             inputs:
               azureSubscription: $(azureServiceConnectionId)
               appName: $(webAppName)
